@@ -1,0 +1,280 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+    --primary-color: #021c33;
+}
+
+.navbar-brand img {
+    width: 120px;
+}
+
+.navbar-brand h5 {
+    font-size: 32px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.bg-prime {
+    background-color: var(--primary-color);
+}
+
+.navbar {
+    padding: 10px 20px !important;
+    background-color: transparent;
+    position: absolute !important;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    /* border-bottom: 1px solid #aaaaaa80; */
+}
+
+.new-btn {
+    background-color: var(--primary-color);
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.new-btn-2 {
+    background-color: transparent;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 100px;
+    font-weight: 600;
+    border: 1px solid #fff;
+}
+
+
+.new-btn-3 {
+    background-color: #fff;
+    display: inline-block;
+    color: var(--primary-color);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+    border: 1px solid #fff;
+}
+
+.nav-item {
+    margin: 0px 20px;
+}
+
+.nav-link {
+    font-weight: 600 !important;
+    color: #eee !important;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.about {
+    /* background-color: #000; */
+    background-image: url('../img/cn-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.layer {
+    background-color: rgba(0,0,0,.7);
+}
+
+.about-box {
+    height: 100vh;
+}
+
+.about-cntnt h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.about-cntnt p {
+    font-size: 18px;
+    color: #aaa;
+    font-weight: 600;
+}
+
+.about-cntnt span {
+    display: block;
+    color: #eee;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.ab-sec{
+    color: #fff;
+}
+
+.ab-sec h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.ab-sec p {
+    color: #eee;
+    
+}
+
+.ab-sec a {
+    background-color: #fff;
+    color: var(--primary-color);
+    text-decoration: none;
+    padding: 8px 25px;
+    display: inline-block;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.cb-banner img {
+    position: relative;
+    top: -80px;
+}
+
+
+.line {
+    background-color: var(--primary-color);
+}
+
+.line h2 {
+    color: #fff;
+    font-size: 74px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.main-heading {
+    font-size: 42px !important;
+    font-weight: 900 !important;
+    color: #fff !important;
+}
+
+
+/* Sec-one */
+
+.sec-one-img img{
+    width: 100%;
+}
+
+.sec-one-cntnt h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+
+}
+
+.sec-one-cntnt p {
+    color: #eee;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #222;
+}
+
+.sec-one-cntnt ul li {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.sec-ul li strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+
+footer {
+    background-color: #000;
+}
+
+.footer-logo img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+
+
+.footer-menu h4 {
+    color: #eee;
+    font-size: 18px;
+    font-weight: 700;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 6px;
+    margin-bottom: 15px;
+}
+
+.footer-menu a {
+    color: #eee;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin: 20px;
+
+}
+
+
+.new-box h1 {
+    font-weight: 900;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.new-box h2 {
+    font-weight: 700;
+}
+
+.new-box p {
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.new-box li {
+    margin-bottom: 15px;
+}
+
+
+@media only screen and (max-width: 700px) {
+
+    .about-cntnt h1 {
+        font-size: 32px;
+    }
+
+    .new-btn, .new-btn-2 {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .sec-one-cntnt h2 {
+        font-size: 24px;
+    }
+
+    .line h2 {
+        font-size: 32px;
+        margin-bottom: 0px;
+    }
+
+    .about-box {
+        height: unset;
+        padding-top: 100px;
+    }
+
+    .about-cntnt a {
+        display: inline-block;
+    }
+
+    .cb-banner img {
+        position: unset;
+        padding: 20px;
+    }
+    
+
+}
